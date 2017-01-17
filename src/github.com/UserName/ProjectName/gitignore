@@ -1,0 +1,31 @@
+# Common
+.DS_Store
+.settings
+.project
+files
+
+# Revel
+pkg
+bin2
+bin/i18n
+bin/ProjectName*
+bin/release
+bin/test.sh
+bin/tmp
+bin/test
+bin/src
+public/upload
+app/routes/routes.go
+app/tmp/main.go
+public/config.codekit
+
+# idea
+.idea/
+ProjectName
+ProjectName.exe
+ProjectName.iml
+ProjectName.log
+
+# Other
+# /node_modules
+# /src
