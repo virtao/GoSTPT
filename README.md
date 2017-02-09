@@ -1,4 +1,4 @@
-# Golang Sublime Text Project Template
-A sublime text project template for golang.
+# Golang Project Template
+A sublime text & idea project template for golang.
 
-Rename the `ProjectTemplate.sublime-project` for the target project name.
+Usage: initProject.sh <ProjectName> [GitHost UserName]
