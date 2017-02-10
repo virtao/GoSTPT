@@ -6,14 +6,14 @@ if [ ! -n "$1" ]; then
 fi
 
 mv ProjectTemplate.sublime-project $1.sublime-project
-sed -i "s/ProjectName/$1/g" src/github.com/UserName/ProjectName/gitignore
-mv src/github.com/UserName/ProjectName/gitignore src/github.com/UserName/ProjectName/.gitignore
-mv src/github.com/UserName/ProjectName/ProjectName.iml src/github.com/UserName/ProjectName/$1.iml
-mv src/github.com/UserName/ProjectName/ src/github.com/UserName/$1/
+sed -i "s/ProjectName/$1/g" src/GitHost/UserName/ProjectName/gitignore
+mv src/GitHost/UserName/ProjectName/gitignore src/GitHost/UserName/ProjectName/.gitignore
+mv src/GitHost/UserName/ProjectName/ProjectName.iml src/GitHost/UserName/ProjectName/$1.iml
+mv src/GitHost/UserName/ProjectName/ src/GitHost/UserName/$1/
 
 if [ -n "$2" ] && [ -n "$3" ]; then
-	mv src/github.com/UserName/ src/github.com/$3/
-	mv src/github.com/ src/$2/
+	mv src/GitHost/UserName/ src/GitHost/$3/
+	mv src/GitHost/ src/$2/
 fi
 
 rm -rf .git
