@@ -1,0 +1,15 @@
+// 将设置放入此文件中以覆盖默认值和用户设置。
+{
+    "go.gopath": "${workspaceRoot}\\",
+    "go.testTimeout": "0",
+    /* 
+	// bash setting
+    "terminal.integrated.shell.windows": "bash.exe",
+    "terminal.integrated.shellArgs.windows": ["-c", "[ -e setGOPATH.sh ] && . setGOPATH.sh; bash"],
+    */
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    "terminal.integrated.shellArgs.windows": [
+        "/k",
+        "setGOPATH.bat && C:\\Windows\\System32\\cmd.exe"
+    ]
+}
